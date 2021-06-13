@@ -1,0 +1,166 @@
+{
+  "uid" : "b833abf5c6a4627",
+  "name" : "Verify creating new repository from API",
+  "fullName" : "Testing Github.Verify creating new repository from API",
+  "historyId" : "ef625ade8a7fb2b091b260ddfecc9e5",
+  "time" : {
+    "start" : 1623385557769,
+    "stop" : 1623385575697,
+    "duration" : 17928
+  },
+  "description" : "Logout should work",
+  "descriptionHtml" : "<p>Logout should work</p>\n",
+  "status" : "failed",
+  "statusMessage" : "Error: expect(received).toStrictEqual(expected) // deep equality\n                \n                Expected: \"APIAssignments,Array_Assignments,Assignments,Assignments_Basic-Concepts,OOPS,ParallelExecution,Polymorphism,Spree_Framework,testing3,testing71\"\n                Received: \"APIAssignments,Array_Assignments,Assignments,Assignments_Basic-Concepts,OOPS,ParallelExecution,Polymorphism,Spree_Framework,testing71\"",
+  "statusTrace" : "Error: expect(received).toStrictEqual(expected) // deep equality\n                \n                Expected: \"APIAssignments,Array_Assignments,Assignments,Assignments_Basic-Concepts,OOPS,ParallelExecution,Polymorphism,Spree_Framework,testing3,testing71\"\n                Received: \"APIAssignments,Array_Assignments,Assignments,Assignments_Basic-Concepts,OOPS,ParallelExecution,Polymorphism,Spree_Framework,testing71\"\n                    at RepositoriesPage.verifyRepositoryList (/Users/saranya.babuthoughtworks.com/Documents/TestingLibGithub/Pages/RepositoriesPage.js:41:52)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Object.<anonymous> (/Users/saranya.babuthoughtworks.com/Documents/TestingLibGithub/Test/GitHub.test.js:52:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: expect(received).toStrictEqual(expected) // deep equality\n                \n                Expected: \"APIAssignments,Array_Assignments,Assignments,Assignments_Basic-Concepts,OOPS,ParallelExecution,Polymorphism,Spree_Framework,testing3,testing71\"\n                Received: \"APIAssignments,Array_Assignments,Assignments,Assignments_Basic-Concepts,OOPS,ParallelExecution,Polymorphism,Spree_Framework,testing71\"",
+    "statusTrace" : "Error: expect(received).toStrictEqual(expected) // deep equality\n                \n                Expected: \"APIAssignments,Array_Assignments,Assignments,Assignments_Basic-Concepts,OOPS,ParallelExecution,Polymorphism,Spree_Framework,testing3,testing71\"\n                Received: \"APIAssignments,Array_Assignments,Assignments,Assignments_Basic-Concepts,OOPS,ParallelExecution,Polymorphism,Spree_Framework,testing71\"\n                    at RepositoriesPage.verifyRepositoryList (/Users/saranya.babuthoughtworks.com/Documents/TestingLibGithub/Pages/RepositoriesPage.js:41:52)\n                    at runMicrotasks (<anonymous>)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Object.<anonymous> (/Users/saranya.babuthoughtworks.com/Documents/TestingLibGithub/Test/GitHub.test.js:52:9)",
+    "steps" : [ {
+      "name" : "Logging into Github",
+      "time" : {
+        "start" : 1623385564825,
+        "stop" : 1623385566160,
+        "duration" : 1335
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Creating Repository from API",
+      "time" : {
+        "start" : 1623385566162,
+        "stop" : 1623385567379,
+        "duration" : 1217
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verifying the same repository is displayed in UI",
+      "time" : {
+        "start" : 1623385567379,
+        "stop" : 0,
+        "duration" : -1623385567379
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "Logging out of Github",
+        "time" : {
+          "start" : 1623385574792,
+          "stop" : 1623385575596,
+          "duration" : 804
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Create API verification"
+  }, {
+    "name" : "story",
+    "value" : "Login functionality"
+  }, {
+    "name" : "story",
+    "value" : "Logout functionality"
+  }, {
+    "name" : "suite",
+    "value" : "Testing Github"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Github"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify creating new repository from API"
+  }, {
+    "name" : "package",
+    "value" : "Testing Github"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "55afff101e4071f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623385331083,
+        "stop" : 1623385348301,
+        "duration" : 17218
+      }
+    }, {
+      "uid" : "bb8eb1cb12dab72d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623323114273,
+        "stop" : 1623323132687,
+        "duration" : 18414
+      }
+    }, {
+      "uid" : "58e550b0c0c59b13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623322566296,
+        "stop" : 1623322585586,
+        "duration" : 19290
+      }
+    }, {
+      "uid" : "88b827ef83610419",
+      "status" : "failed",
+      "statusDetails" : "QueryEmptyError: Unable to find any nodes within 3000ms.",
+      "time" : {
+        "start" : 1623322468212,
+        "stop" : 1623322484847,
+        "duration" : 16635
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b833abf5c6a4627.json",
+  "parameterValues" : [ ]
+}

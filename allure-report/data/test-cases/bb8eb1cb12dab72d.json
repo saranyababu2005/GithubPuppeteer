@@ -1,0 +1,90 @@
+{
+  "uid" : "bb8eb1cb12dab72d",
+  "name" : "Verify creating new repository from API",
+  "fullName" : "Testing Github.Verify creating new repository from API",
+  "historyId" : "ef625ade8a7fb2b091b260ddfecc9e5",
+  "time" : {
+    "start" : 1623323114273,
+    "stop" : 1623323132687,
+    "duration" : 18414
+  },
+  "description" : "Logout should work",
+  "descriptionHtml" : "<p>Logout should work</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Logging into Github",
+      "time" : {
+        "start" : 1623323117771,
+        "stop" : 1623323121927,
+        "duration" : 4156
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Logging out of Github",
+      "time" : {
+        "start" : 1623323131671,
+        "stop" : 1623323132594,
+        "duration" : 923
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Login functionality"
+  }, {
+    "name" : "story",
+    "value" : "Logout functionality"
+  }, {
+    "name" : "suite",
+    "value" : "Testing Github"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Github"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify creating new repository from API"
+  }, {
+    "name" : "package",
+    "value" : "Testing Github"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bb8eb1cb12dab72d.json",
+  "parameterValues" : [ ]
+}

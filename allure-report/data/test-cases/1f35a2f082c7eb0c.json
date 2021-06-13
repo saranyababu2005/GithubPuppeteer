@@ -1,0 +1,146 @@
+{
+  "uid" : "1f35a2f082c7eb0c",
+  "name" : "Verify Menu options are available",
+  "fullName" : "Testing Github.Verify Menu options are available",
+  "historyId" : "ed0f46e11c51e2f35dd6518c3f6e07a",
+  "time" : {
+    "start" : 1623385533853,
+    "stop" : 1623385540963,
+    "duration" : 7110
+  },
+  "description" : "Logout should work",
+  "descriptionHtml" : "<p>Logout should work</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Logging into Github",
+      "time" : {
+        "start" : 1623385537060,
+        "stop" : 1623385538745,
+        "duration" : 1685
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verify the menus are available",
+      "time" : {
+        "start" : 1623385538746,
+        "stop" : 1623385540147,
+        "duration" : 1401
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Logging out of Github",
+      "time" : {
+        "start" : 1623385540147,
+        "stop" : 1623385540882,
+        "duration" : 735
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Login functionality"
+  }, {
+    "name" : "story",
+    "value" : "Logout functionality"
+  }, {
+    "name" : "story",
+    "value" : "UI verification"
+  }, {
+    "name" : "suite",
+    "value" : "Testing Github"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Github"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Menu options are available"
+  }, {
+    "name" : "package",
+    "value" : "Testing Github"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1468d73cbbba7140",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1623385331083,
+        "stop" : 1623385331083,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "afba7f864a0619e3",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1623323114273,
+        "stop" : 1623323114273,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c613ae25f108e7dc",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1623322566295,
+        "stop" : 1623322566295,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "89686e7a8a9933a",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1623322468211,
+        "stop" : 1623322468211,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1f35a2f082c7eb0c.json",
+  "parameterValues" : [ ]
+}

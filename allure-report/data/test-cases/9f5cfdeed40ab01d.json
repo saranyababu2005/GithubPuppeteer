@@ -1,0 +1,146 @@
+{
+  "uid" : "9f5cfdeed40ab01d",
+  "name" : "Verify number and name of Repostiories",
+  "fullName" : "Testing Github.Verify number and name of Repostiories",
+  "historyId" : "c119fb35379ca19f577762366b576ed7",
+  "time" : {
+    "start" : 1623385540964,
+    "stop" : 1623385557768,
+    "duration" : 16804
+  },
+  "description" : "Logout should work",
+  "descriptionHtml" : "<p>Logout should work</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Logging into Github",
+      "time" : {
+        "start" : 1623385544071,
+        "stop" : 1623385548173,
+        "duration" : 4102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verify number and name of Repostiories",
+      "time" : {
+        "start" : 1623385548173,
+        "stop" : 1623385556699,
+        "duration" : 8526
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Logging out of Github",
+      "time" : {
+        "start" : 1623385556699,
+        "stop" : 1623385557666,
+        "duration" : 967
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Login functionality"
+  }, {
+    "name" : "story",
+    "value" : "Logout functionality"
+  }, {
+    "name" : "story",
+    "value" : "Repositories Verification"
+  }, {
+    "name" : "suite",
+    "value" : "Testing Github"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Github"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify number and name of Repostiories"
+  }, {
+    "name" : "package",
+    "value" : "Testing Github"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "54871554e3b97837",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1623385331083,
+        "stop" : 1623385331083,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "38f724d9d401dd4f",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1623323114273,
+        "stop" : 1623323114273,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c9fb0e57e9f9b90d",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1623322566296,
+        "stop" : 1623322566296,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a4f43b95cd6a6809",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1623322468212,
+        "stop" : 1623322468212,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9f5cfdeed40ab01d.json",
+  "parameterValues" : [ ]
+}

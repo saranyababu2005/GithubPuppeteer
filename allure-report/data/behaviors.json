@@ -1,0 +1,228 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Login functionality",
+    "children" : [ {
+      "name" : "Verify whether user is able to login Github",
+      "uid" : "feff0fb9657f40e3",
+      "parentUid" : "188357eda975c95318be33c4a6155bd8",
+      "status" : "failed",
+      "time" : {
+        "start" : 1623385520955,
+        "stop" : 1623385533853,
+        "duration" : 12898
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify Menu options are available",
+      "uid" : "1f35a2f082c7eb0c",
+      "parentUid" : "188357eda975c95318be33c4a6155bd8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623385533853,
+        "stop" : 1623385540963,
+        "duration" : 7110
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify number and name of Repostiories",
+      "uid" : "9f5cfdeed40ab01d",
+      "parentUid" : "188357eda975c95318be33c4a6155bd8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623385540964,
+        "stop" : 1623385557768,
+        "duration" : 16804
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify creating new repository from API",
+      "uid" : "b833abf5c6a4627",
+      "parentUid" : "188357eda975c95318be33c4a6155bd8",
+      "status" : "failed",
+      "time" : {
+        "start" : 1623385557769,
+        "stop" : 1623385575697,
+        "duration" : 17928
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify repository can be updated from API",
+      "uid" : "2ada7aa842af4563",
+      "parentUid" : "188357eda975c95318be33c4a6155bd8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623385575697,
+        "stop" : 1623385593512,
+        "duration" : 17815
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "188357eda975c95318be33c4a6155bd8"
+  }, {
+    "name" : "Logout functionality",
+    "children" : [ {
+      "name" : "Verify whether user is able to login Github",
+      "uid" : "feff0fb9657f40e3",
+      "parentUid" : "37b773b0f87421fd67cf8b153f78a996",
+      "status" : "failed",
+      "time" : {
+        "start" : 1623385520955,
+        "stop" : 1623385533853,
+        "duration" : 12898
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify Menu options are available",
+      "uid" : "1f35a2f082c7eb0c",
+      "parentUid" : "37b773b0f87421fd67cf8b153f78a996",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623385533853,
+        "stop" : 1623385540963,
+        "duration" : 7110
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify number and name of Repostiories",
+      "uid" : "9f5cfdeed40ab01d",
+      "parentUid" : "37b773b0f87421fd67cf8b153f78a996",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623385540964,
+        "stop" : 1623385557768,
+        "duration" : 16804
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify creating new repository from API",
+      "uid" : "b833abf5c6a4627",
+      "parentUid" : "37b773b0f87421fd67cf8b153f78a996",
+      "status" : "failed",
+      "time" : {
+        "start" : 1623385557769,
+        "stop" : 1623385575697,
+        "duration" : 17928
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify repository can be updated from API",
+      "uid" : "2ada7aa842af4563",
+      "parentUid" : "37b773b0f87421fd67cf8b153f78a996",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623385575697,
+        "stop" : 1623385593512,
+        "duration" : 17815
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "37b773b0f87421fd67cf8b153f78a996"
+  }, {
+    "name" : "Username verification",
+    "children" : [ {
+      "name" : "Verify whether user is able to login Github",
+      "uid" : "feff0fb9657f40e3",
+      "parentUid" : "810d064dfc9dc3f20dd517d7452e4cd6",
+      "status" : "failed",
+      "time" : {
+        "start" : 1623385520955,
+        "stop" : 1623385533853,
+        "duration" : 12898
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "810d064dfc9dc3f20dd517d7452e4cd6"
+  }, {
+    "name" : "UI verification",
+    "children" : [ {
+      "name" : "Verify Menu options are available",
+      "uid" : "1f35a2f082c7eb0c",
+      "parentUid" : "38bdd7930a4a2c16d7401768404081fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623385533853,
+        "stop" : 1623385540963,
+        "duration" : 7110
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "38bdd7930a4a2c16d7401768404081fc"
+  }, {
+    "name" : "Repositories Verification",
+    "children" : [ {
+      "name" : "Verify number and name of Repostiories",
+      "uid" : "9f5cfdeed40ab01d",
+      "parentUid" : "f19fe0b680f2ae626bb37b959e7ccfda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623385540964,
+        "stop" : 1623385557768,
+        "duration" : 16804
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f19fe0b680f2ae626bb37b959e7ccfda"
+  }, {
+    "name" : "Create API verification",
+    "children" : [ {
+      "name" : "Verify creating new repository from API",
+      "uid" : "b833abf5c6a4627",
+      "parentUid" : "4fc20e9155c425727dc58282ae179a43",
+      "status" : "failed",
+      "time" : {
+        "start" : 1623385557769,
+        "stop" : 1623385575697,
+        "duration" : 17928
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4fc20e9155c425727dc58282ae179a43"
+  }, {
+    "name" : "Update API verification",
+    "children" : [ {
+      "name" : "Verify repository can be updated from API",
+      "uid" : "2ada7aa842af4563",
+      "parentUid" : "b9b6a8f239cb64e8441daeb61c9959e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623385575697,
+        "stop" : 1623385593512,
+        "duration" : 17815
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b9b6a8f239cb64e8441daeb61c9959e7"
+  } ]
+}

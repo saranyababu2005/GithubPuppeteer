@@ -1,0 +1,46 @@
+{
+  "uid" : "50dbf2f6387e1d7d",
+  "name" : "Verify whether user is able to login Github",
+  "fullName" : "Testing Github.Verify whether user is able to login Github",
+  "historyId" : "d1bbc2b7769127514f654c9b13557e22",
+  "time" : {
+    "start" : 1623322468211,
+    "stop" : 1623322468211,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "statusMessage" : "This test was disabled",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Testing Github"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Github"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify whether user is able to login Github"
+  }, {
+    "name" : "package",
+    "value" : "Testing Github"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "50dbf2f6387e1d7d.json",
+  "parameterValues" : [ ]
+}

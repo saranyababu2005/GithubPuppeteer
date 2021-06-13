@@ -1,0 +1,79 @@
+{
+  "uid" : "88b827ef83610419",
+  "name" : "Verify creating new repository from API",
+  "fullName" : "Testing Github.Verify creating new repository from API",
+  "historyId" : "ef625ade8a7fb2b091b260ddfecc9e5",
+  "time" : {
+    "start" : 1623322468212,
+    "stop" : 1623322484847,
+    "duration" : 16635
+  },
+  "description" : "Logout should work",
+  "descriptionHtml" : "<p>Logout should work</p>\n",
+  "status" : "failed",
+  "statusMessage" : "QueryEmptyError: Unable to find any nodes within 3000ms.",
+  "statusTrace" : "QueryEmptyError: Unable to find any nodes within 3000ms.\n                    at RepositoriesPage.verifyRepositoryList (/Users/saranya.babuthoughtworks.com/Documents/TestingLibGithub/Pages/RepositoriesPage.js:29:21)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Object.<anonymous> (/Users/saranya.babuthoughtworks.com/Documents/TestingLibGithub/Test/GitHub.test.js:26:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "QueryEmptyError: Unable to find any nodes within 3000ms.",
+    "statusTrace" : "QueryEmptyError: Unable to find any nodes within 3000ms.\n                    at RepositoriesPage.verifyRepositoryList (/Users/saranya.babuthoughtworks.com/Documents/TestingLibGithub/Pages/RepositoriesPage.js:29:21)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Object.<anonymous> (/Users/saranya.babuthoughtworks.com/Documents/TestingLibGithub/Test/GitHub.test.js:26:9)",
+    "steps" : [ {
+      "name" : "Logging into Github",
+      "time" : {
+        "start" : 1623322469759,
+        "stop" : 1623322471903,
+        "duration" : 2144
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Login functionality"
+  }, {
+    "name" : "story",
+    "value" : "Logout functionality"
+  }, {
+    "name" : "suite",
+    "value" : "Testing Github"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Github"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify creating new repository from API"
+  }, {
+    "name" : "package",
+    "value" : "Testing Github"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "88b827ef83610419.json",
+  "parameterValues" : [ ]
+}

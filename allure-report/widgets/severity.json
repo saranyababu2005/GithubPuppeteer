@@ -1,0 +1,51 @@
+[ {
+  "uid" : "9f5cfdeed40ab01d",
+  "name" : "Verify number and name of Repostiories",
+  "time" : {
+    "start" : 1623385540964,
+    "stop" : 1623385557768,
+    "duration" : 16804
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f35a2f082c7eb0c",
+  "name" : "Verify Menu options are available",
+  "time" : {
+    "start" : 1623385533853,
+    "stop" : 1623385540963,
+    "duration" : 7110
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "feff0fb9657f40e3",
+  "name" : "Verify whether user is able to login Github",
+  "time" : {
+    "start" : 1623385520955,
+    "stop" : 1623385533853,
+    "duration" : 12898
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ada7aa842af4563",
+  "name" : "Verify repository can be updated from API",
+  "time" : {
+    "start" : 1623385575697,
+    "stop" : 1623385593512,
+    "duration" : 17815
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b833abf5c6a4627",
+  "name" : "Verify creating new repository from API",
+  "time" : {
+    "start" : 1623385557769,
+    "stop" : 1623385575697,
+    "duration" : 17928
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jun 11 09:56:15 IST 2021","Fri Jun 11 09:56:33 IST 2021","17815","","Testing Github","","Testing Github","Verify repository can be updated from API","Verify repository can be updated from API","Logout should work"
+"passed","Fri Jun 11 09:55:33 IST 2021","Fri Jun 11 09:55:40 IST 2021","7110","","Testing Github","","Testing Github","Verify Menu options are available","Verify Menu options are available","Logout should work"
+"passed","Fri Jun 11 09:55:40 IST 2021","Fri Jun 11 09:55:57 IST 2021","16804","","Testing Github","","Testing Github","Verify number and name of Repostiories","Verify number and name of Repostiories","Logout should work"
+"failed","Fri Jun 11 09:55:20 IST 2021","Fri Jun 11 09:55:33 IST 2021","12898","","Testing Github","","Testing Github","Verify whether user is able to login Github","Verify whether user is able to login Github","Logout should work"
+"failed","Fri Jun 11 09:55:57 IST 2021","Fri Jun 11 09:56:15 IST 2021","17928","","Testing Github","","Testing Github","Verify creating new repository from API","Verify creating new repository from API","Logout should work"

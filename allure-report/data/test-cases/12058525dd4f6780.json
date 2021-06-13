@@ -1,0 +1,46 @@
+{
+  "uid" : "12058525dd4f6780",
+  "name" : "Verify repository can be updated from API",
+  "fullName" : "Testing Github.Verify repository can be updated from API",
+  "historyId" : "9c9db80cd25e04247f6ec0534f009988",
+  "time" : {
+    "start" : 1623323132687,
+    "stop" : 1623323132687,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "statusMessage" : "This test was disabled",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Testing Github"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Github"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify repository can be updated from API"
+  }, {
+    "name" : "package",
+    "value" : "Testing Github"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "12058525dd4f6780.json",
+  "parameterValues" : [ ]
+}

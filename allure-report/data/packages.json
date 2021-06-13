@@ -1,0 +1,74 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Testing Github",
+    "children" : [ {
+      "name" : "Verify whether user is able to login Github",
+      "uid" : "feff0fb9657f40e3",
+      "parentUid" : "eca99eacf9a08667f5fc468ec146e354",
+      "status" : "failed",
+      "time" : {
+        "start" : 1623385520955,
+        "stop" : 1623385533853,
+        "duration" : 12898
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify Menu options are available",
+      "uid" : "1f35a2f082c7eb0c",
+      "parentUid" : "eca99eacf9a08667f5fc468ec146e354",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623385533853,
+        "stop" : 1623385540963,
+        "duration" : 7110
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify number and name of Repostiories",
+      "uid" : "9f5cfdeed40ab01d",
+      "parentUid" : "eca99eacf9a08667f5fc468ec146e354",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623385540964,
+        "stop" : 1623385557768,
+        "duration" : 16804
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify creating new repository from API",
+      "uid" : "b833abf5c6a4627",
+      "parentUid" : "eca99eacf9a08667f5fc468ec146e354",
+      "status" : "failed",
+      "time" : {
+        "start" : 1623385557769,
+        "stop" : 1623385575697,
+        "duration" : 17928
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Verify repository can be updated from API",
+      "uid" : "2ada7aa842af4563",
+      "parentUid" : "eca99eacf9a08667f5fc468ec146e354",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623385575697,
+        "stop" : 1623385593512,
+        "duration" : 17815
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "eca99eacf9a08667f5fc468ec146e354"
+  } ]
+}

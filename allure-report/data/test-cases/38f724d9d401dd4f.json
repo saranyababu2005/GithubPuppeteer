@@ -1,0 +1,46 @@
+{
+  "uid" : "38f724d9d401dd4f",
+  "name" : "Verify number and name of Repostiories",
+  "fullName" : "Testing Github.Verify number and name of Repostiories",
+  "historyId" : "c119fb35379ca19f577762366b576ed7",
+  "time" : {
+    "start" : 1623323114273,
+    "stop" : 1623323114273,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "statusMessage" : "This test was disabled",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Testing Github"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Github"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify number and name of Repostiories"
+  }, {
+    "name" : "package",
+    "value" : "Testing Github"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "38f724d9d401dd4f.json",
+  "parameterValues" : [ ]
+}

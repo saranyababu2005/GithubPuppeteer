@@ -1,0 +1,154 @@
+{
+  "uid" : "feff0fb9657f40e3",
+  "name" : "Verify whether user is able to login Github",
+  "fullName" : "Testing Github.Verify whether user is able to login Github",
+  "historyId" : "d1bbc2b7769127514f654c9b13557e22",
+  "time" : {
+    "start" : 1623385520955,
+    "stop" : 1623385533853,
+    "duration" : 12898
+  },
+  "description" : "Logout should work",
+  "descriptionHtml" : "<p>Logout should work</p>\n",
+  "status" : "failed",
+  "statusMessage" : "QueryEmptyError: Unable to find any nodes within 3000ms.",
+  "statusTrace" : "QueryEmptyError: Unable to find any nodes within 3000ms.\n                    at BasePage.signOutGitHub (/Users/saranya.babuthoughtworks.com/Documents/TestingLibGithub/Pages/BasePage.js:38:22)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Object.<anonymous> (/Users/saranya.babuthoughtworks.com/Documents/TestingLibGithub/Test/GitHub.test.js:71:9)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "QueryEmptyError: Unable to find any nodes within 3000ms.",
+    "statusTrace" : "QueryEmptyError: Unable to find any nodes within 3000ms.\n                    at BasePage.signOutGitHub (/Users/saranya.babuthoughtworks.com/Documents/TestingLibGithub/Pages/BasePage.js:38:22)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Object.<anonymous> (/Users/saranya.babuthoughtworks.com/Documents/TestingLibGithub/Test/GitHub.test.js:71:9)",
+    "steps" : [ {
+      "name" : "Logging into Github",
+      "time" : {
+        "start" : 1623385527511,
+        "stop" : 1623385528932,
+        "duration" : 1421
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verifying user name",
+      "time" : {
+        "start" : 1623385528933,
+        "stop" : 1623385530563,
+        "duration" : 1630
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Logging out of Github",
+      "time" : {
+        "start" : 1623385530563,
+        "stop" : 0,
+        "duration" : -1623385530563
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Login functionality"
+  }, {
+    "name" : "story",
+    "value" : "Logout functionality"
+  }, {
+    "name" : "story",
+    "value" : "Username verification"
+  }, {
+    "name" : "suite",
+    "value" : "Testing Github"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Github"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify whether user is able to login Github"
+  }, {
+    "name" : "package",
+    "value" : "Testing Github"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5dfe451e7ba06e4e",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1623385331082,
+        "stop" : 1623385331082,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f36f2af3946ba455",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1623323114272,
+        "stop" : 1623323114273,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "d2b9ecc7ee6b1f18",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1623322566295,
+        "stop" : 1623322566295,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "50dbf2f6387e1d7d",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1623322468211,
+        "stop" : 1623322468211,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "feff0fb9657f40e3.json",
+  "parameterValues" : [ ]
+}

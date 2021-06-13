@@ -1,0 +1,160 @@
+{
+  "uid" : "2ada7aa842af4563",
+  "name" : "Verify repository can be updated from API",
+  "fullName" : "Testing Github.Verify repository can be updated from API",
+  "historyId" : "9c9db80cd25e04247f6ec0534f009988",
+  "time" : {
+    "start" : 1623385575697,
+    "stop" : 1623385593512,
+    "duration" : 17815
+  },
+  "description" : "Logout should work",
+  "descriptionHtml" : "<p>Logout should work</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Logging into Github",
+      "time" : {
+        "start" : 1623385579653,
+        "stop" : 1623385582918,
+        "duration" : 3265
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Updating repository from API",
+      "time" : {
+        "start" : 1623385582918,
+        "stop" : 1623385583499,
+        "duration" : 581
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Verifying the same repository is updated in UI",
+      "time" : {
+        "start" : 1623385583499,
+        "stop" : 1623385592614,
+        "duration" : 9115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Logging out of Github",
+      "time" : {
+        "start" : 1623385592614,
+        "stop" : 1623385593416,
+        "duration" : 802
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Login functionality"
+  }, {
+    "name" : "story",
+    "value" : "Logout functionality"
+  }, {
+    "name" : "story",
+    "value" : "Update API verification"
+  }, {
+    "name" : "suite",
+    "value" : "Testing Github"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Github"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify repository can be updated from API"
+  }, {
+    "name" : "package",
+    "value" : "Testing Github"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bcf70968f330872b",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1623385348301,
+        "stop" : 1623385348301,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "12058525dd4f6780",
+      "status" : "unknown",
+      "statusDetails" : "This test was disabled",
+      "time" : {
+        "start" : 1623323132687,
+        "stop" : 1623323132687,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "81b7a699b589bae8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1623322585586,
+        "stop" : 1623322608820,
+        "duration" : 23234
+      }
+    }, {
+      "uid" : "c87c2a0330b12a5f",
+      "status" : "failed",
+      "statusDetails" : "QueryEmptyError: Unable to find any nodes within 3000ms.",
+      "time" : {
+        "start" : 1623322484847,
+        "stop" : 1623322496393,
+        "duration" : 11546
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2ada7aa842af4563.json",
+  "parameterValues" : [ ]
+}

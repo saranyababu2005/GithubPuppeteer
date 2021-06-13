@@ -1,0 +1,46 @@
+{
+  "uid" : "1468d73cbbba7140",
+  "name" : "Verify Menu options are available",
+  "fullName" : "Testing Github.Verify Menu options are available",
+  "historyId" : "ed0f46e11c51e2f35dd6518c3f6e07a",
+  "time" : {
+    "start" : 1623385331083,
+    "stop" : 1623385331083,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "statusMessage" : "This test was disabled",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Testing Github"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Github"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify Menu options are available"
+  }, {
+    "name" : "package",
+    "value" : "Testing Github"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1468d73cbbba7140.json",
+  "parameterValues" : [ ]
+}

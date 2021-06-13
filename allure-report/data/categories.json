@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "QueryEmptyError: Unable to find any nodes within 3000ms.",
+      "children" : [ {
+        "name" : "Verify whether user is able to login Github",
+        "uid" : "feff0fb9657f40e3",
+        "parentUid" : "c0bcb9dcc93d41847bf1362573f2e71e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1623385520955,
+          "stop" : 1623385533853,
+          "duration" : 12898
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c0bcb9dcc93d41847bf1362573f2e71e"
+    }, {
+      "name" : "Error: expect(received).toStrictEqual(expected) // deep equality\n                \n                Expected: \"APIAssignments,Array_Assignments,Assignments,Assignments_Basic-Concepts,OOPS,ParallelExecution,Polymorphism,Spree_Framework,testing3,testing71\"\n                Received: \"APIAssignments,Array_Assignments,Assignments,Assignments_Basic-Concepts,OOPS,ParallelExecution,Polymorphism,Spree_Framework,testing71\"",
+      "children" : [ {
+        "name" : "Verify creating new repository from API",
+        "uid" : "b833abf5c6a4627",
+        "parentUid" : "f31a0d40d6c344dcc6477b509a72f5c1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1623385557769,
+          "stop" : 1623385575697,
+          "duration" : 17928
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f31a0d40d6c344dcc6477b509a72f5c1"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
